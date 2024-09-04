@@ -1,0 +1,105 @@
+
+body
+{
+    background-image: url('./images/image.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.app {
+    display: flex;
+    padding:30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+}
+
+.text {
+    color:#fff;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    text-shadow: 1px 1px 2px #000;
+    margin:0;
+    padding: 0;
+    font-weight: 600;
+}
+
+.gameWon {
+    height: 50%;
+    width: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #eee;
+    text-shadow: 2px 2px 4px black;
+    margin:2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding:2rem 0;
+    z-index: 1;
+}
+
+.gameWon p {
+    margin: 1rem 0;
+}
+
+.gameFinish {
+    display:none;
+}
+
+.restart-btn {
+    font-size: 20px;
+    padding: 1rem 2rem;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    align-self: center;
+    margin-top: 4rem;
+    border-radius: 0 10% 0 10%;
+    border: none;
+    cursor: pointer;
+}
+
+.score-board {
+    font-size: 1.3rem ;
+    font-family:Arial, sans-serif;
+    margin-bottom: 0.2rem;
+}
+
+.score-board h2 {
+    font-weight:600;
+    color: #fff;
+    text-shadow: 1px 1px 3px black;
+}
+
+.game {
+    width:480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.game img {
+    width:60px;
+    height: 60px;
+}
+
+.reRoll-btn {
+    padding: 0.5rem 0.8rem;
+    font-size: 16px;
+    margin-top: 1.3rem;
+    font-weight: 500;
+    outline: none;
+    background: #555;
+    color: #fff;
+    border-radius: 0 10% 0 10%;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
